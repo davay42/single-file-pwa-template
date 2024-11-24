@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>_</title>
+  <meta name="theme-color" content="black">
+  <meta name="application-name" content="_">
+  <meta name="author" content="_">
+  <meta name="creator" content="_">
+  <meta name="description" content="_">
+  <meta property="og:title" content="_">
+  <meta property="og:site_name" content="_">
+  <meta property="og:description" content="_">
+
+  <meta property="og:image" content="/_.png">
+
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="_">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:label1" content="_">
+  <meta name="twitter:label2" content="_">
+  <meta name="twitter:site" content="_">
+  <meta name="twitter:creator" content="_">
+  <meta name="twitter:image:type" content="image/png">
+  <meta name="twitter:image" content="/_.png">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="_">
+
+  <link rel="icon" type="image/svg+xml" href="/_.svg">
+  <link rel="apple-touch-icon" href="/_.png" sizes="512x512">
+
+  <link rel="manifest" href="/manifest.json">
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module">
+    import '@unocss/reset/tailwind.css'
+    import 'virtual:uno.css'
+
+    import { createApp } from 'vue'
+    import App from './App.vue'
+
+    createApp(App).mount('#app')
+  </script>
+</body>
+
+</html>
